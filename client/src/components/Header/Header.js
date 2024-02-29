@@ -1,4 +1,6 @@
-import logox from './logo-X1.png'
+import logoX from './logo-X1.png'
+import logoX1 from './logo-X.png'
+import './Header.css'
 
 
 export default function Header(){
@@ -6,7 +8,7 @@ export default function Header(){
         <header>
             <nav class="navbar navbar-expand-lg body-tertiary" style={{backgroundColor: 'black'}}>
             <div class="container-fluid">
-                <img src={logox} className="LogoX" alt="Xlogo" width="100" height="50" />
+                <img src={logoX} className="LogoX" alt="Xlogo" width="100" height="50" />
                 <a class="navbar-brand" href="#" style={{color:'#901090', fontSize:'30px'}}><b><i>X-Data</i></b></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>

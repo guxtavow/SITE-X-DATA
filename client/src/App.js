@@ -1,6 +1,7 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Header from './components/Header';
+import Header from './components/Header/Header.js';
+import Banner from './components/Banner/Banner.js';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
       {/* ----------------------------- HEADER ----------------------------- */}
       <Header />
       {/* ---------------------------------- MAIN ---------------------------------- */}
+      <Banner />
       
 
     </div>
