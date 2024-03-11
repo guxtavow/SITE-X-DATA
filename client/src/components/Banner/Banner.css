@@ -1,4 +1,61 @@
-.container{
-    width: 100vw;
-    
+@import url('https://fonts.cdnfonts.com/css/campuni-test');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.container-banner{
+    margin-top: -13vh;
+    width:100vw;
+    height: 100.6vh;
+    background: url(fundo.jpg) no-repeat;
+    background-position:0px -100px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
 }
+
+@keyframes evento{
+    0% {
+        background-position: 0 50%;
+
+    }
+    50%{
+        background-position: 100% 50%;
+
+    }
+    100%{ 
+        background-position: 0 100%;
+    }
+}
+
+ 
+
+.evento-off{
+    color:transparent;
+    background-image: linear-gradient(to right, #ff1493 , #ff1493, blueviolet , blueviolet); 
+    -webkit-background-clip: text;
+    background-size: 200% 100%;
+    background-clip: text;
+    opacity: 1;
+    animation: evento 7s linear infinite;
+    font-family: 'Exo 2', sans-serif;
+    font-weight: bolder;    
+    text-shadow: 4px 5px 9px rgba(0,0,0,0.27);
+}
+
+
+
+
+    
+
+    .Title{
+        font-size: 200px;
+    }
+
+    .subtitulo{
+        font-size: 60px;
+        font-family: 'Exo 2', sans-serif;
+
+}
+
