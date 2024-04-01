@@ -1,0 +1,40 @@
+.Content{
+    background-color: black;
+    width: 100vw;
+    height: auto;
+    padding: 5vh;
+}
+#title h1{
+    color: #ff1493;
+    font-weight: bolder;
+    font-style:italic;
+    text-align: justify;
+
+}
+.bloco{
+    width: 70%;
+    margin: auto;
+    
+}
+
+.accordion-button{
+    background-image: linear-gradient(to right, #ff1493 , #ff1493, blueviolet , blueviolet); 
+    border-radius: 30px;
+}
+
+.accordion-button:not(.collapsed){
+    background-color: #ff1493;
+}
+
+.accordion1{
+    color: white;
+    font-weight: normal;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+    border-radius: 30px;
+}
+
+.accordion22{
+    color: white;
+    font-weight: bolder;
+}
