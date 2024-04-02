@@ -15,12 +15,10 @@ return(
             Ao acessar este site, você concorda com os termos e condições de uso.
             </h7>
             <br />
-        <div className='Sociais'>
-            <a href='https://www.linkedin.com/in/gustavodeaquinoavila/' rel="noreferrer" target='_blank' id='linkedin'><img src={Linkedin} alt='Linke' width='50px' id='link'></img></a>
-            <a href='https://github.com/guxtavow' rel="noreferrer" target='_blank' id='GitHub'><img src={github} alt='Git' width='50px' id='github'></img></a>
-
-
-        </div>
+            <div className='Sociais'>
+                <a href='https://www.linkedin.com/in/gustavodeaquinoavila/' rel="noreferrer" target='_blank' id='linkedin'><img src={Linkedin} alt='Linke' width='50px' id='link'></img></a>
+                <a href='https://github.com/guxtavow' rel="noreferrer" target='_blank' id='GitHub'><img src={github} alt='Git' width='50px' id='github'></img></a>
+            </div>
         </div>
     </footer>
     </>
