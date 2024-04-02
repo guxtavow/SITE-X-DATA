@@ -1,18 +1,18 @@
 .Content{
     background-color: black;
-    width: 100vw;
-    height: auto;
-    padding: 5vh;
+    width: 99vw;
+    height: 120vh;
+    padding: 3vh;
 }
 #title h1{
-    color: #ff1493;
+    color: blueviolet;
     font-weight: bolder;
     font-style:italic;
     text-align: justify;
 
 }
 .bloco{
-    width: 70%;
+    width: 80%;
     margin: auto;
     
 }

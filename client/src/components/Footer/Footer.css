@@ -1,0 +1,29 @@
+.HomeFooter{
+    margin-top: -13vh;
+    width:99vw;
+    height: 50vh;
+    background: url(fundo.jpg) no-repeat;
+    background-position:0px -350px;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.textoFooter{
+    width: 60vw;
+    color: white;
+}
+
+
+.Sociais{
+    padding: 10px;
+}
+
+#face, #twitter, #You, #Instagram{
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
