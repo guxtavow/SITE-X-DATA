@@ -1,5 +1,6 @@
 import logoX from './logo-X1.png'
 import './Header.css'
+import { Link } from 'react-router-dom'
 
 
 export default function Header(){
@@ -16,15 +17,15 @@ export default function Header(){
                 <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#" ><b>Inicio</b></a>
+                        <Link to="/home" className="nav-link active" aria-current="page" ><b>Inicio</b></Link>
                     </li>
 
                     <li class="nav-item">
-                    <a class="nav-link" href="#"><b>Especificações</b></a>
+                        <Link to="/Especificacoes" className="nav-link"><b>Especificações</b></Link>
                     </li>   
 
                     <li class="nav-item">
-                    <a class="nav-link" href="#"><b>Valores</b></a>
+                        <Link to="/Valores" className="nav-link"><b>Valores</b></Link>
                     </li>
 
                     <li class="nav-item">

@@ -1,0 +1,37 @@
+.Especify{    
+    margin: auto;
+    margin-top: -13vh;
+    width:100%;
+    height: 100%;
+    background: url(fundo.jpg) no-repeat;
+    background-size:cover;
+    z-index: 0;
+}
+
+.CARDES{
+    width: 90%;
+    margin: auto;
+    padding-top: 100px;
+    z-index: 1;
+}
+
+.cards-top{
+    display: inline-flex;
+    float: top;
+    background-image: linear-gradient(to bottom, black,black , blueviolet); 
+    color:  white;
+}
+
+.cards{
+    display: inline-flex;
+    align-items: center;
+    margin: 50px;
+    background-image: linear-gradient(to bottom, black,black , blueviolet); 
+    color:  white;
+}
+.cards-bottom{
+    display: inline-flex;
+    float: top;
+    background-image: linear-gradient(to bottom, black,black , blueviolet); 
+    color:  white;
+}
