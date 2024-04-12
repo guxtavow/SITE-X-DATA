@@ -1,18 +1,65 @@
 .Especify{    
     margin: auto;
     margin-top: -13vh;
-    width:100%;
+    width: 100%;
     height: 100%;
     background: url(fundo.jpg) no-repeat;
-    background-size:cover;
+    background-size: cover;
     z-index: 0;
 }
-
 .CARDES{
     width: 90%;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 130px;
+    padding-bottom: 150px;
     z-index: 1;
+}
+@keyframes aumento{
+    0% {
+    top: 100%;
+    bottom: 0%;
+    }
+    100%{
+    top: 50%;
+    bottom: -80%;
+    }
+}
+@keyframes aumento2{
+    0% {
+        left: 100%;
+        right: 100%;
+    }
+    100%{
+        left: 15%;
+        right: 15%;
+    }
+}
+@keyframes bordas{
+    0%{
+        border: 0 blueviolet;
+    }
+    50%{
+        border: 2.5px blueviolet;
+    }
+    100%{
+        border: solid 5px blueviolet;
+    }
+}
+
+.vertical-line {
+    position: absolute;
+    left: 49vw; /* Posição da linha no meio do container */
+    width: 15px; /* Largura da linha */
+    background-color: blueviolet; /* Cor da linha */
+    animation: aumento 4s ease-in forwards;
+}
+
+.horizontal-line {
+    position: absolute;
+    top: 50vw; /* Posiciona a linha no meio verticalmente */
+    height: 15px; /* Altura da linha */
+    background-color: blueviolet; /* Cor da linha */
+    animation: aumento2 7s ease-in forwards;
 }
 
 .cards-top{
@@ -20,6 +67,8 @@
     float: top;
     background-image: linear-gradient(to bottom, black,black , blueviolet); 
     color:  white;
+    z-index: 1;
+    animation: bordas 7s ease-in forwards;
 }
 
 .cards{
@@ -28,10 +77,14 @@
     margin: 50px;
     background-image: linear-gradient(to bottom, black,black , blueviolet); 
     color:  white;
+    z-index: 1;
+    animation: bordas 7s ease-in forwards;
 }
 .cards-bottom{
     display: inline-flex;
     float: top;
     background-image: linear-gradient(to bottom, black,black , blueviolet); 
     color:  white;
+    z-index: 1;
+    animation: bordas 7s ease forwards;
 }
