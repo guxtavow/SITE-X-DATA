@@ -10,7 +10,7 @@ import Laydowns from './components/laydown/Laydown.js';
 import Footer from './components/Footer/Footer.js';
 */
 import Especificacao from './components/Rotas/Especificacoes/Especifica.js';
-import Valores from './components/Rotas/Valores/Valores.js'
+import QuemSomos from './components/Rotas/QuemSomos/QuemSomos.js';
 
 
 function App() {
@@ -20,9 +20,10 @@ function App() {
       <Router> {/* ELEMENTO ROUTER */}
         <Header /> {/* NAVBAR GLOBAL */}
           <Routes> {/* ROTAS */}
-            <Route exact path="/" element={<Home/>} />      {/* ---------------------------------- CONTEUDO - MAIN PAGE ---------------------------------- */}
+            <Route exact path="/SITE-X-DATA" element={<Home/>} />   {/* ---------------------------------- CONTEUDO - MAIN PAGE ---------------------------------- */}
+            <Route exact path="/" element={<Home/>} />      {/* ---------------------------------- CONTEUDO - MAIN PAGE COM BARRAS ---------------------------------- */}
             <Route path="/Especificacoes" element={<Especificacao />} /> {/* ---------------------------------- CONTEUDO - ESPECIFICAÇÃO ---------------------------------- */}
-            <Route path="/Valores" element={<Valores />} /> {/* ---------------------------------- CONTEUDO - VALORES ---------------------------------- */}
+            <Route path="/Quem-Somos" element={<QuemSomos />} />
           </Routes>
         <Footer />
       </Router>

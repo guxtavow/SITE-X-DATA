@@ -20,6 +20,13 @@ header{
     color: transparent;
 }
 
+.navbar-brand:hover{
+    -webkit-background-clip: text;
+    background-size: 200% 100%;
+    background-clip: text;
+    color: aqua;
+}
+
 a.nav-link{
     font-family: 'Campuni Test', sans-serif;
     color: blueviolet;

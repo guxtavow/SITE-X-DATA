@@ -1,0 +1,26 @@
+.sections{
+    height: 200vh;
+}
+
+.info{
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: 10vh;
+}
+
+.info2{
+    float: right;
+    width: 40vw;
+    margin-right: 5vw;
+    margin-top: 10vh;
+}
+
+.info3{
+    width: 40vw;
+    margin-left: 5vw;
+    margin-top: 60vh;
+}
+
+.info-spec {
+    background-color: blueviolet;
+}
