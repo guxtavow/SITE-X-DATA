@@ -18,6 +18,7 @@ export default function QuemSomos(){
             >
                 E QUAL A NOSSA HISTÓRIA?
             </h1>
+        
             <div className='info'>   
                 <Card className='info-spec'>
                     <Card.Header
