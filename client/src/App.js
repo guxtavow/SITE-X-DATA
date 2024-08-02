@@ -25,7 +25,7 @@ function App() {
             <Route path="/Especificacoes" element={<Especificacao />} /> {/* ---------------------------------- CONTEUDO - ESPECIFICAÇÃO ---------------------------------- */}
             <Route path="/Quem-Somos" element={<QuemSomos />} />
           </Routes>
-        <Footer />
+        <Footer />{/* FOOTER GLOBAL */}
       </Router>
     </div>
   );
