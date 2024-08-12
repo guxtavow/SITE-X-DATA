@@ -1,7 +1,9 @@
 .Content{
     background-color: black;
-    width: 99vw;
-    height: 120vh;
+    min-width: 99vw;
+    max-width: 100vw;
+    min-height: 116vh;
+    max-height: 120vh;
     padding: 3vh;
 }
 #title h1{

@@ -36,7 +36,7 @@ export default function Especificacao(){
                     </Card.Body>
                 </Card>
                 <div class="vertical-line"></div>
-                <Card style={{ width: '18rem' }} className='cards'>
+                <Card style={{ width: '18rem', marginInline:'10vw' }} className='cards'>
                     <Card.Img variant="top" src={Placa} />
                     <Card.Body>
                         <Card.Title>PLACA MÃE</Card.Title>
@@ -49,7 +49,7 @@ export default function Especificacao(){
                 <div class="horizontal-line"></div>
 
 
-                <Card style={{ width: '18rem' }} className='cards'>
+                <Card style={{width: '18rem'}}className='cards'>
                     <Card.Img variant="top" src={Process} />
                     <Card.Body>
                         <Card.Title>PROCESSADOR</Card.Title>

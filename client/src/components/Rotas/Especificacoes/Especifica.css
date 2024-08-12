@@ -10,6 +10,7 @@
 .CARDES{
     width: 90%;
     margin: auto;
+    padding-inline:30px ;
     padding-top: 130px;
     padding-bottom: 150px;
     z-index: 1;
@@ -21,7 +22,7 @@
     }
     100%{
     top: 50%;
-    bottom: -80%;
+    bottom: -90%;
     }
 }
 @keyframes aumento2{
@@ -63,9 +64,9 @@
 }
 
 .cards-top{
-    display: inline-flex;
+    display: flex;
     float: top;
-    background-image: linear-gradient(to bottom, black,black , blueviolet); 
+    background-color:blueviolet;
     color:  white;
     z-index: 1;
     animation: bordas 7s ease-in forwards;
@@ -73,17 +74,16 @@
 
 .cards{
     display: inline-flex;
-    align-items: center;
-    margin: 50px;
-    background-image: linear-gradient(to bottom, black,black , blueviolet); 
+    background-image: linear-gradient(to bottom ,blueviolet); 
     color:  white;
     z-index: 1;
     animation: bordas 7s ease-in forwards;
 }
+
 .cards-bottom{
-    display: inline-flex;
-    float: top;
+    display: flex;
     background-image: linear-gradient(to bottom, black,black , blueviolet); 
+    margin-top: 5vh;
     color:  white;
     z-index: 1;
     animation: bordas 7s ease forwards;

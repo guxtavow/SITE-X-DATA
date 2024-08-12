@@ -4,8 +4,9 @@
 
 .container-banner{
     margin-top: -13vh;
-    width:99vw;
-    height: 100.6vh;
+    max-width:99vw;
+    min-height: 103.6vh;
+    max-height: 104vh;
     background: url(fundo.jpg) no-repeat;
     background-position:0px -100px;
     background-size:cover;
@@ -13,23 +14,20 @@
     justify-content: center;
     align-items: center;
     z-index: 0;
+    cursor:default;
 }
 
 @keyframes evento{
     0% {
         background-position: 0 50%;
-
     }
     50%{
         background-position: 100% 50%;
-
     }
     100%{ 
         background-position: 0 100%;
     }
 }
-
- 
 
 .evento-off{
     color:transparent;
@@ -44,18 +42,12 @@
     text-shadow: 4px 5px 9px rgba(0,0,0,0.27);
 }
 
+.Title{
+    font-size: 200px;
+}
 
-
-
-    
-
-    .Title{
-        font-size: 200px;
-    }
-
-    .subtitulo{
-        font-size: 60px;
-        font-family: 'Exo 2', sans-serif;
-
+.subtitulo{
+    font-size: 60px;
+    font-family: 'Exo 2', sans-serif;
 }
 

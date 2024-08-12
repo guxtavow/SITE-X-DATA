@@ -36,6 +36,7 @@ a.nav-link{
     opacity: 50%;
     text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
 }
+
 .nav-link:hover{
     color: #ff1493;
     transform: scale(1.2);
