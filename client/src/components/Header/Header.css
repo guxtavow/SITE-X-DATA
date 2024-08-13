@@ -10,24 +10,25 @@ header{
     width: max-content;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-family: 'Exo 2', sans-serif;
     font-weight: bolder;
-    background-image: linear-gradient(to top, #ff1493, #ff1493, blueviolet , blueviolet); 
+    background-image: linear-gradient(to top, #ff1493, #ff1493, blueviolet, blueviolet); 
     -webkit-background-clip: text;
     background-size: 200% 100%;
     background-clip: text;
     color: transparent;
 }
-
-.navbar-brand:hover{
+  
+.navbar-brand:hover {
     -webkit-background-clip: text;
     background-size: 200% 100%;
     background-clip: text;
     color: aqua;
 }
 
-a.nav-link{
+a.nav-link {
+    position: relative; /* Para permitir o uso de pseudo-elementos */
     font-family: 'Campuni Test', sans-serif;
     color: blueviolet;
     margin-left: 20px;
@@ -35,20 +36,33 @@ a.nav-link{
     font-weight: bolder;
     opacity: 50%;
     text-shadow: 3px 3px 3px rgba(0,0,0,0.4);
+    text-decoration: none; /* Remove qualquer sublinhado padrão */
+    transition: color 0.5s ease, transform 0.5s ease, opacity 0.5s ease; /* Transições */
 }
-
-.nav-link:hover{
+  
+a.nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 6px; /* Ajuste de posição para o sublinhado */
+    height: 3px; /* Altura da linha sublinhada */
+    width: 0; /* Largura inicial da linha */
+    background-color: #ff1493; /* Cor da linha */
+    transition: width 0.5s ease; /* Transição de expansão */
+}
+    
+a.nav-link:hover {
     color: #ff1493;
     transform: scale(1.2);
     opacity: 1;
-    transition: all 0.5s ease;
 }
 
-.navbar-nav .nav-link.active{
+.nav-link.active1 {
     color: #ff1493;
-    transform: scale(1.2);
+    transform: scale(1.1);
     opacity: 1;
-    transition: all 0.5s ease;
 }
-
-
+ 
+.nav-link.active1::after {
+    width: 100%; /* Expande a linha para a largura total quando ativo */
+}
