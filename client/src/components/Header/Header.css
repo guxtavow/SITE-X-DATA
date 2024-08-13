@@ -10,10 +10,33 @@ header{
     width: max-content;
 }
 
+
+  
+@keyframes evento1{
+    0% {
+        background-position: 30% 0%;
+    }
+    50%{
+        background-position: 100% 70%;
+    }
+    75%{
+        background-position: 70% 50%;
+    }
+    80%{ 
+        background-position: 50% 25%;
+    }
+    90%{
+        background-position: 25% 0%;
+    }
+    100%{
+        background-position: 0% -30%;
+    }
+}
+
 .navbar-brand {
     font-family: 'Exo 2', sans-serif;
     font-weight: bolder;
-    background-image: linear-gradient(to top, #ff1493, #ff1493, blueviolet, blueviolet); 
+    background-image: linear-gradient(to top, #ff1493, #ff1493, blueviolet, blueviolet);
     -webkit-background-clip: text;
     background-size: 200% 100%;
     background-clip: text;
@@ -22,9 +45,11 @@ header{
   
 .navbar-brand:hover {
     -webkit-background-clip: text;
-    background-size: 200% 100%;
+    background-size: 200% 200%; /* Aumenta o tamanho do background para permitir a animação */
     background-clip: text;
-    color: aqua;
+    color: transparent;
+    background-image: linear-gradient(to bottom, #ff1493, #ff1493, blueviolet, blueviolet); /* Gradiente aplicado no hover */
+    animation: evento1 7s ease-in-out infinite; /* Aplica a animação */
 }
 
 a.nav-link {

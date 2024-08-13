@@ -31,14 +31,14 @@
 
 .evento-off{
     color:transparent;
-    background-image: linear-gradient(to right, #ff1493 , #ff1493, blueviolet , blueviolet); 
+    background-image: linear-gradient(to right, #ff1493 , #ff1493, blueviolet , blueviolet);
     -webkit-background-clip: text;
     background-size: 200% 100%;
     background-clip: text;
     opacity: 1;
     animation: evento 7s linear infinite;
     font-family: 'Exo 2', sans-serif;
-    font-weight: bolder;    
+    font-weight: bolder;
     text-shadow: 4px 5px 9px rgba(0,0,0,0.27);
 }
 
