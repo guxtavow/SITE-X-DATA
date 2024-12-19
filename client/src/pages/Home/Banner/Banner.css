@@ -4,7 +4,7 @@
 
 .container-banner{
     margin-top: -13vh;
-    max-width:99vw;
+    max-width:100vw;
     min-height: 103.6vh;
     max-height: 104vh;
     background: url(fundo.jpg) no-repeat;
@@ -17,25 +17,19 @@
     cursor:default;
 }
 
-@keyframes evento{
+@keyframes evento {
     0% {
-        background-position: 0 50%;
+        background-position: 100% 0;
     }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{ 
-        background-position: 0 100%;
+    100% {
+        background-position: -100% 0;
     }
 }
 
 .evento-off{
-    color:transparent;
     background-image: linear-gradient(to right, #ff1493 , #ff1493, blueviolet , blueviolet);
-    -webkit-background-clip: text;
     background-size: 200% 100%;
-    background-clip: text;
-    opacity: 1;
+    background-clip:text;
     animation: evento 7s linear infinite;
     font-family: 'Exo 2', sans-serif;
     font-weight: bolder;
@@ -44,10 +38,12 @@
 
 .Title{
     font-size: 200px;
+    color: transparent;
 }
 
 .subtitulo{
     font-size: 60px;
     font-family: 'Exo 2', sans-serif;
+    color: transparent;
 }
 
