@@ -35,10 +35,6 @@ export default function Header() {
                 <li className="nav-item">
                   <Link to="/Quem-Somos" className={`nav-link ${activeLink === '/Quem-Somos' ? 'active1' : ''}`} onClick={() => handleLinkClick('/Quem-Somos')}><b>Quem somos</b></Link>
                 </li>
-
-                <li className="nav-item">
-                  <a className={`nav-link ${activeLink === '/Fale-Conosco' ? 'active1' : ''}`} href="#" onClick={() => handleLinkClick('/Fale-Conosco')}><b>Fale Conosco</b></a>
-                </li>
               </ul>
             </div>
           </div>

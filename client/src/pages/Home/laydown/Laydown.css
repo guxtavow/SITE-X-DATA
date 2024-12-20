@@ -1,5 +1,5 @@
 .Content{
-    background-color: black;
+    background-color: rgb(9, 1, 44);
     min-width: 99vw;
     max-width: 100vw;
     min-height: 116vh;
@@ -7,16 +7,14 @@
     padding: 3vh;
 }
 #title h1{
-    color: blueviolet;
+    color: white;
     font-weight: bolder;
     font-style:italic;
     text-align: justify;
-
 }
 .bloco{
     width: 80%;
-    margin: auto;
-    
+    margin: auto;   
 }
 
 .accordion-button{

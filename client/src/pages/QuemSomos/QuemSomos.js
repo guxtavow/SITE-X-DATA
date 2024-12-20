@@ -55,7 +55,7 @@ export default function QuemSomos() {
     <>
       <div className='sections'>
         <div className='planeta'>
-          <img src={Mundo} height={600} alt='planeta' />
+          <img src={Mundo} height={800} alt='planeta' />
           <p style={{
             fontSize: 8,
             marginTop: -40

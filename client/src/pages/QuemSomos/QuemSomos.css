@@ -1,6 +1,8 @@
 .sections{
-  min-height:185vh;
-  max-height: 200vh;
+  min-height:200vh;
+  max-height: 210vh;
+  min-width: 100vw;
+  max-width: 120vw;
 }
 /* HorizontalTimeline */
 .timeline-container{

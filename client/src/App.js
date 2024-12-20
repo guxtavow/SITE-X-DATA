@@ -6,7 +6,7 @@ import Home from './pages/Home/Home.js';
 import Footer from './components/Footer/Footer.js';
 import Especificacao from './pages/Especificacoes/Especifica.js';
 import QuemSomos from './pages/QuemSomos/QuemSomos.js';
-
+import FaleConosco from './components/FaleConosco/Contato.js';
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
             <Route path="/Especificacoes" element={<Especificacao />} /> {/* ---------------------------------- CONTEUDO - ESPECIFICAÇÃO ---------------------------------- */}
             <Route path="/Quem-Somos" element={<QuemSomos />} />
           </Routes>
+          <FaleConosco />
         <Footer />{/* FOOTER GLOBAL */}
       </Router>
     </div>

@@ -27,7 +27,7 @@
 }
 
 .evento-off{
-    background-image: linear-gradient(to right, #ff1493 , #ff1493, blueviolet , blueviolet);
+    background-image: linear-gradient(to right, #ff1493 , #ff1493,#ff1493, blueviolet , blueviolet, blueviolet, blueviolet);
     background-size: 200% 100%;
     background-clip:text;
     animation: evento 7s linear infinite;
